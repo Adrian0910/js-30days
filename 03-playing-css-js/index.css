@@ -1,13 +1,37 @@
+
+:root {
+    --base: #ffc600;
+    --spacing: 20px;
+    --blur: 10px;
+}
+
+
 *{
     margin: 0;
     padding: 0;
 }
 
 
-html{
+img{
+    padding:var(--spacing);
+    background: var(--base);
+    filter: blur(var(--blur));
+}
+
+.h1{
+    color: var(--base);
+}
+
+body{
+    text-align: center;
+}
+
+
+body{
     background-color: #162e3f;
     color: white;
     font-size: 25px;
     font-family: 'Courier New', Courier, monospace;
 }
+
 
