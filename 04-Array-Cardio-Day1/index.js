@@ -4,7 +4,11 @@
  * Consiste en implementar lss diferentes funciones que existen en los arreglos.
  */
 
+<<<<<<< HEAD
 const inventors = [
+=======
+ const inventors = [
+>>>>>>> 6f864771251bc86bcf6598d6a72ad2a97d8a9af0
     {first: 'Albert', last: 'Einstein', year: 1879, passed: 1955 },
     {first: 'Isaac', last: 'Newton', year: 1643, passed: 1727 },
     {first: 'Galileo', last: 'Galilei', year: 1564, passed: 1642 },
@@ -114,6 +118,10 @@ const repeatWord = data.reduce((totalW, word) => {
     totalW[word]++;
     return totalW;
 },{});
+<<<<<<< HEAD
 console.log(repeatWord);
 
 
+=======
+console.log(repeatWord);
+>>>>>>> 6f864771251bc86bcf6598d6a72ad2a97d8a9af0
