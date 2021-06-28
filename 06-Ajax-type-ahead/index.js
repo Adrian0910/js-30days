@@ -51,10 +51,3 @@ const suggestions = document.querySelector('.suggestions')
 searchInput.addEventListener('change', displayMatches);
 searchInput.addEventListener('keyup', displayMatches);
 
-<<<<<<< HEAD
-
-
-
-
-=======
->>>>>>> 4c52dc9af04d1f7a703a22a86893ed3160a96f73
