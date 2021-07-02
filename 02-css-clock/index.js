@@ -1,10 +1,8 @@
 
-<<<<<<< HEAD
 /* 
     ¿Como vamos a hacer eso?
     - Crear una funcion que añada el estilo
 */
-=======
 const hora = document.querySelector('.hour-hand');
 const minuto = document.querySelector('.main-hand');
 const segundo = document.querySelector('.second-hand');
@@ -29,7 +27,6 @@ const setDate = function(){
 
 setInterval(setDate, 1000);
 
->>>>>>> 031d930e98ab215a51fc2a27d26c4f2296760413
 
 const hora = document.querySelector('.hour-hand');
 const minuto = document.querySelector('.min-hand');
