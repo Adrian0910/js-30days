@@ -1,7 +1,5 @@
 const canvas = document.querySelector('#draw');
 const ctx = canvas.getContext('2d');
-<<<<<<< HEAD
-=======
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
@@ -57,7 +55,6 @@ canvas.addEventListener('mouseout',() => isDrawing= false);
 
 
 
->>>>>>> 086f25a7256722e9ac85875e0ea242382b955da8
 
 canvas.width = window.innerWidth;
 canvas.height = window.innerHeight;
