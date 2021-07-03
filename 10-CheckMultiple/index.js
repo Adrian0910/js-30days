@@ -1,4 +1,3 @@
-
 const boxSelect = document.querySelectorAll('.inbox input[type="checkbox"]');
 
 let lastChecked;
@@ -26,8 +25,3 @@ function boxCheck(e) {
 }
 
 boxSelect.forEach(checkbox  => checkbox.addEventListener('click', boxCheck));
-
-
-
-
-
