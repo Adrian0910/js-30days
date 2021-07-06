@@ -1,3 +1,4 @@
+
 const allCode = [];
 const secretCode = 'hola';
 
@@ -15,3 +16,6 @@ console.log(allCode);
 }
 
 window.addEventListener('keyup', konamiCode);
+
+
+
