@@ -1,5 +1,5 @@
 
-const debounce = function(func, wait = 10, inmediate = true){
+const debounce = function(func, wait = 5, inmediate = true){
 
     let timeout;
     return function(){
