@@ -4,12 +4,13 @@ const panels = document.querySelectorAll(".panel");
 
 
 const imageOpen = function(){
-    console.log('hello')
+    // console.log('hello')
     this.classList.toggle('open');
     // this.classList.toggle('open-active');
 }
 
 const imageTransform = function(e){
+    
     if (e.propertyName.includes('flex')) {
         this.classList.toggle('open-active');
     }

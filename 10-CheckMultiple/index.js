@@ -2,7 +2,6 @@ const boxSelect = document.querySelectorAll('.inbox input[type="checkbox"]');
 
 let lastChecked;
 
-
 function boxCheck(e) {
     
     let inBetween = false;
@@ -21,7 +20,6 @@ function boxCheck(e) {
         });
     }
     lastChecked = this;
-    
 }
 
 boxSelect.forEach(checkbox  => checkbox.addEventListener('click', boxCheck));
