@@ -14,10 +14,7 @@ const bands = [
   'An Old Dog',
 ];
 
-
-
 const sortedBands = document.querySelector('#bands');
-
 
 const replace = function(a){
     return a.replace(/^(a |the |an )/i,'').trim();
