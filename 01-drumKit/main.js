@@ -29,8 +29,8 @@ const playMusic = function (e) {
 const eresEstupido = function(){
   const keys2 = document.querySelector('.keys') 
     const estupido = document.createElement('p');
-    estupido.classList.add('estupido');
-    estupido.innerHTML = '<p> Eres estupido</p>'
+    estupido.classList.add('errorKey');
+    estupido.innerHTML = '<p> NO key!!!</p>'
     keys2.appendChild(estupido);
 
     setTimeout(() => {

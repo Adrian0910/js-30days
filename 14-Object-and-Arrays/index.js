@@ -2,20 +2,20 @@
 
 // strings, numbers and booleans
 
-/* let age = 100;
+ let age = 100;
 let age2 = age;
 
 console.log(age, age2);
 
 age = 200;
-console.log(age, age2); */
+console.log(age, age2); 
 
 
 //let's say we have an array
 // const players = ['Wes', 'Sarah', 'Ryan', 'Poppy'];
 
 //and we want to make a copy of it
-/* const team = players;
+const team = players;
 console.log(players);
 console.log(team) */
 
@@ -35,7 +35,7 @@ console.log(team) */
 team4[3] = 'heee haaaw';
 console.log(team4);
 
-const team5 = Array.from(players); */
+const team5 = Array.from(players); 
 
 //now when we update it, the original one isn't changed
 
